@@ -1,0 +1,21 @@
+h1 {
+    font-family: "Nunito sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .navbar-brand {
+    font-family: "Nunito sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+ .navbar ul a {
+  color: #efefef;
+  text-decoration: none;
+  font-family: "Nunito sans", serif;
+  font-weight: 600;
+ }
+ .navbar a.active {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+ }
