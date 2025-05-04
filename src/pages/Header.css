@@ -1,0 +1,26 @@
+/* Police de caractère, gras de  police et style de police de la navbaret du titre h1 */
+h1 {
+    font-family: "Nunito sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .navbar-brand {
+    font-family: "Nunito sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+ .navbar ul a {
+  color: #efefef;
+  text-decoration: none;
+  font-family: "Nunito sans", sans-serif;
+  font-weight: 600;
+ }
+ /* les lien sont surligner au passage de la sourie et les lien actif on une nuance de couleur et surligner */
+ .navbar a.active {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+ }
+ .navbar ul a :hover {
+  text-decoration: underline;
+ }

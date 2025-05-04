@@ -1,0 +1,49 @@
+/* ✅ Largeur de la modale personnalisée */
+.custom-modal-width {
+    max-width: 600px;
+  }
+  
+  @media (max-width: 991.98px) {
+    .custom-modal-width {
+      max-width: 800px !important;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .custom-modal-width {
+      max-width: 500px !important;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .custom-modal-width {
+      max-width: 750px !important;
+      margin: auto;
+    }
+  }
+  
+/* 🔹 Réduire la taille de l'image uniquement sur tablette (768px à 991px) */
+    @media (min-width: 768px) and (max-width: 991px) {
+        .img-half-height-tablet {
+            max-height: 200px;   /* Ajuste la hauteur comme tu veux */
+            height: auto;
+            width: auto;
+            object-fit: cover; /* ou 'cover' selon le rendu souhaité */
+    }
+  }
+  
+  
+  /* ✅ Infos plus compactes sur desktop */
+  @media (min-width: 992px) {
+    .modal-infos {
+      max-height: 250px;
+      justify-content: start;
+    }
+  }
+  
+  /* ✅ Texte aligné à gauche même en mobile */
+  .modal-infos {
+    text-align: left;
+  }
+  
+  
