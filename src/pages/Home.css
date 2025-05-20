@@ -1,53 +1,101 @@
-
+/* Style du texte à l'intérieur des cartes */
 .card-text {
-    font-family: "Nunito sans", sans-serif;
-    text-align: justify;
+    font-family: "Nunito sans", sans-serif; /* Utilisation de la police Nunito Sans */
+    text-align: justify; /* Alignement justifié du texte */
 }
+
+/* Style du corps des cartes Bootstrap */
 .card-body {
-    font-family: "Nunito sans", sans-serif;
-    --bs-card-spacer-y: 0; 
-    --bs-card-spacer-x: 0;
+    font-family: "Nunito sans", sans-serif; /* Police cohérente avec le reste du site */
+    --bs-card-spacer-y: 0;  /* Suppression de l'espacement vertical par défaut de Bootstrap */
+    --bs-card-spacer-x: 0;  /* Suppression de l'espacement horizontal par défaut de Bootstrap */
 }
+
+/* Titres de niveau h4 */
 h4 {
-    font-family: "Nunito sans", sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
+    font-family: "Nunito sans", sans-serif; /* Police cohérente */
+    text-transform: uppercase; /* Mise en majuscules du texte */
+    font-weight: 600; /* Gras renforcé */
 }
+
+/* Style des paragraphes généraux */
 p {
-    font-family: "Nunito sans", sans-serif;
-    font-weight: 400;
+    font-family: "Nunito sans", sans-serif; /* Police par défaut du site */
+    font-weight: 400; /* Poids standard */
 }
-.container-hero{
-    width: 100%;
-    height: 85vh;
-    position: relative;
-   
-}
-.hero-content:before{
 
-    content : "";
-    z-index : 1;
-    position : absolute;
-    top : 0; left : 0; right : 0; bottom : 0;
-    background-image: url("../../public/images/hero-bg.jpg");
-    background-position: center;
-    background-size: cover;
-    opacity : 0.75;
-  }
+/* Conteneur principal de la section Hero */
+.container-hero {
+    width: 100%; /* Prend toute la largeur */
+    height: 85vh; /* 85% de la hauteur de la fenêtre */
+    position: relative; /* Pour positionner en absolu les éléments enfants */
+}
+
+/* Image de fond semi-transparente de la section Hero via pseudo-élément */
+.hero-content:before {
+    content: ""; /* Nécessaire pour que le pseudo-élément apparaisse */
+    z-index: 1; /* Position derrière le contenu principal */
+    position: absolute; /* Couvre tout le conteneur parent */
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-image: url("../../public/images/hero-bg.jpg"); /* Image de fond */
+    background-position: center; /* Centrée */
+    background-size: cover; /* Couvre tout le bloc */
+    opacity: 0.75; /* Transparence pour voir le contenu au-dessus */
+}
+
+/* Contenu principal de la section Hero */
 .hero-content {
-    width: 100%;
-    height: 85vh;
+    width: 100%; /* Prend toute la largeur */
+    height: 85vh; /* Même hauteur que son parent */
     position: relative;
-    z-index: 2;
+    z-index: 2; /* Positionné au-dessus de l’image de fond */
 }
 
-h1, h2{
-    font-family: "Nunito sans", sans-serif;
-    font-weight: 600;
-    position: relative;
-    z-index: 3;
+/* Media query pour écran >= 768px (tablettes et +) */
+@media (min-width: 768px) {
+    .titre-home {
+        font-size: 67px; /* Taille du titre principal */
+    }
+    .sous-titre {
+        font-size: 50px; /* Taille du sous-titre */
+    }
 }
+
+/* Titres principaux */
+h1, h2 {
+    font-family: "Nunito sans", sans-serif; /* Police cohérente */
+    font-weight: 600; /* Gras pour l’importance */
+    position: relative;
+    z-index: 3; /* Toujours au-dessus de l’image de fond */
+}
+
+/* Boutons du site */
 button {
     position: relative;
-    z-index: 3;
+    z-index: 3; /* Visibilité assurée par rapport à l’image de fond */
+}
+
+/* Barres de progression des compétences : HTML */
+.progress-html {
+    width: 90%; /* Représente 90% de compétence */
+}
+
+/* Barres de progression des compétences : CSS */
+.progress-css {
+    width: 80%;
+}
+
+/* Barres de progression des compétences : JavaScript */
+.progress-js {
+    width: 70%;
+}
+
+/* Barres de progression des compétences : PHP */
+.progress-php {
+    width: 60%;
+}
+
+/* Barres de progression des compétences : React */
+.progress-react {
+    width: 50%;
 }

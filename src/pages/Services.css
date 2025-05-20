@@ -1,29 +1,30 @@
-
-body{
-    width: auto;
-    height: auto;
-}
+/* Style des cartes */
 .card {
- height: 200px;   
+    height: 200px;  /* Fixe une hauteur de 200 pixels */
 }
+
+/* Style pour les titres h1 */
 h1 {
-    text-align: center;
+    text-align: center; /* Centre le texte horizontalement */
 }
+
+/* Style pour les paragraphes */
 p {
-    font-size: 12px;
+    font-size: 12px; /* Réduit la taille du texte */
 }
-.bi-brush {
-    color: #0d6efd;
-}
+
+/* Style de base pour les cartes de service */
 .service-card {
-    transition: all 0.3s ease;
-    background-color: #fff;
-    border-radius: 8px;
-  }
-  
-  .service-card:hover {
-    background-color: #efefef;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-  }
-  
+    transition: all 0.3s ease; /* Ajoute une animation fluide pour tous les changements de style */
+    background-color: #fff;    /* Fond blanc */
+    border-radius: 8px;        /* Coins arrondis de 8px */
+}
+
+/* Style appliqué au survol des cartes de service */
+.service-card:hover {
+    background-color: #efefef; /* Change le fond en gris clair */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ajoute une ombre */
+}
+.icone {
+    height: 80px;
+}

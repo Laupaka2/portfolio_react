@@ -1,0 +1,20 @@
+/* Fichier de style pour la page Portfolio */
+
+/* Style appliqué au titre principal du portfolio */
+.portfolio-title {
+  font-size: 2.5rem;      /* Définit une grande taille de police pour le titre */
+  font-weight: bold;      /* Met le texte en gras */
+}
+
+/* Style pour le sous-titre ou texte secondaire du portfolio */
+.portfolio-subtitle {
+  font-size: 1.1rem;       /* Taille de police légèrement supérieure à la normale */
+  color: #000;             /* Couleur de texte noir */
+}
+
+/* Barre de soulignement décorative sous le titre */
+.portfolio-underline {
+  width: 40%;              /* La barre prend 40% de la largeur de son conteneur */
+  height: 5px;             /* Épaisseur de la barre */
+  background-color: #007bff; /* Couleur bleue Bootstrap (primary) */
+}

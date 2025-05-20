@@ -1,0 +1,60 @@
+/* Conteneur principal de la page Not Found */
+.notfound-container {
+    min-height: 70vh; /* Hauteur minimale de 70% de la hauteur de la fenêtre */
+    padding: 2rem; /* Espacement intérieur */
+    display: flex; /* Utilise Flexbox pour l’alignement */
+    flex-direction: column; /* Les enfants sont empilés verticalement */
+    justify-content: center; /* Centrage vertical du contenu */
+    align-items: center; /* Centrage horizontal du contenu */
+    text-align: center; /* Centre le texte à l'intérieur */
+}
+
+/* Titre principal (404) */
+.notfound-title {
+    font-size: 4rem; /* Très grande taille de texte */
+    margin-bottom: 1rem; /* Espacement inférieur */
+}
+
+/* Sous-titre explicatif (Page introuvable) */
+.notfound-subtitle {
+    margin-bottom: 1.5rem; /* Espacement sous le sous-titre */
+}
+
+/* Message explicative */
+.notfound-message {
+    max-width: 400px; /* Largeur maximale du paragraphe */
+    margin-bottom: 2rem; /* Espacement inférieur */
+}
+
+/* Style du bouton de retour à l’accueil */
+.notfound-button {
+    padding: 0.75rem 1.5rem; /* Rembourrage vertical et horizontal */
+    font-size: 1.25rem; /* Taille du texte légèrement agrandie */
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+/* Cible un ID spécifique */
+#notfound {
+    height: 70vh; /* Hauteur fixe à 70% de la fenêtre */
+    padding: 2rem; /* Marge intérieure */
+    font-family: "Nunito Sans", sans-serif; /* Police utilisée */
+    color: #333; /* Couleur du texte (gris foncé) */
+}
+
+/* Grand titre d’erreur dans la section #notfound */
+#notfound h1 {
+    font-size: 6rem; /* Énorme taille pour le code erreur */
+    color: #dc3545; /* Rouge Bootstrap (danger) */
+}
+
+/* Sous-titre dans #notfound */
+#notfound h2 {
+    font-size: 2rem; /* Taille moyenne */
+    margin-bottom: 1rem; /* Espacement inférieur */
+}
+
+/* Paragraphe d’explication dans #notfound */
+#notfound p {
+    font-size: 1.25rem; /* Taille de texte lisible */
+    margin-bottom: 2rem; /* Espacement après le paragraphe */
+}

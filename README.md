@@ -1,70 +1,150 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio de John DOE - Développeur Web
 
-## Available Scripts
+Le projet consiste a créez un portfolio en React qui est le **portfolio de John DOE**, futur développeur web diplômé du CEF. Ce site a été conçu dans le but de présenter son profil, ses compétences, ses projets et les services qu’il propose dans le cadre de sa recherche d’un emploi.
 
-In the project directory, you can run:
+## Objectif du projet
 
-### `npm start`
+Ce portfolio a pour but de mettre en valeur :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Mes compétences techniques en développement web .
+    
+   **(Celle de John Doe réalisée par moi-même)**
+- Ses projets personnels et professionnels (celle de john Doe faite par moi).
+- Ses offres de service.
+- Ses informations de contact.
+- Sa présence sur les réseaux professionnels (LinkedIn, GitHub, Twitter).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Le site est entièrement réalisé avec **React.js** et **Bootstrap 5**, en respectant une **charte graphique stricte** fournie avec des maquettes et des images libres de droits issues de **Pixabay**. Le site respecte également les standards **W3C** et est optimisé pour le **SEO**.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prérequis
 
-### `npm run build`
+Avant d’installer et d’exécuter ce projet, assurez-vous d’avoir les outils suivants installés sur votre machine :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) 
+- [Git](https://git-scm.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Installation
 
-### `npm run eject`
+1. **Clonez ce dépôt :**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/votre-utilisateur/portfolio-john-doe.git
+   cd portfolio-john-doe
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Installez les dépendances :**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   Avec npm :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+   Ou avec Yarn :
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```bash
+   yarn install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🚀 Lancement du projet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Pour lancer l'application en mode développement :
 
-### Analyzing the Bundle Size
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Ou :
 
-### Making a Progressive Web App
+```bash
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Cela ouvrira automatiquement votre navigateur à l'adresse [http://localhost:3000](http://localhost:3000).
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+##  Structure du projet
 
-### Deployment
+Le site contient les pages suivantes :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Accueil** : Présentation de John DOE, image Hero, bouton vers modale GitHub.
+- **Services** : Liste des services sous forme de cards avec effets CSS.
+- **Portfolio** : Portfolio des projets (minimum 6).
+- **Contact** : Formulaire de contact complet + carte Google Map.
+- **Mentions légales** : Informations légales dans un accordéon Bootstrap (non indexée par les moteurs de recherche).
+- **NotFound** : Pour les erreurs 404, les redirections vers des pages inconnues.
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##  Identité graphique
+
+- **Police :** [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans), poids 400 et 600.
+- **Icônes :** [Bootstrap Icons](https://icons.getbootstrap.com/)
+- **Favicon :** [Flaticon - John Doe](https://www.flaticon.com/de/kostenlose-icons/john-doe)
+- **Palette :** Couleurs par défaut de [Bootstrap 5.2](https://getbootstrap.com/docs/5.2/customize/color/)
+
+---
+
+##  Fonctionnalités techniques
+
+- Intégration complète avec **React Router** pour la navigation.
+- Utilisation de **Cards Bootstrap** pour les services et projets.
+- **Effets CSS** appliqués :
+  - Ombres et changements de couleur au survol sur cards et boutons.
+  - Soulignement et mise en gras des liens actifs du menu.
+  - Transitions fluides sur tous les éléments interactifs.
+- **Modale React** pour afficher dynamiquement les infos GitHub de John Doe (via `useEffect`).
+- **Responsive Design** adapté aux mobiles, tablettes et desktop selon les maquettes fournies.
+
+---
+
+##  Normes et bonnes pratiques
+
+- Code conforme aux normes **W3C**.
+- Optimisation **SEO** (balises, structure, accessibilité).
+- Structure de projet claire avec composants réutilisables.
+- Suivi de projet et gestion des versions via **GitHub**.
+
+---
+
+## Crédits
+
+- Images libres de droits : [Pixabay](https://pixabay.com/)
+- Icônes : [Flaticon](https://www.flaticon.com/de/kostenlose-icons/john-doe)
+- Framework CSS : [Bootstrap 5](https://getbootstrap.com/)
+
+---
+
+##  Auteur
+
+**John DOE**  
+Développeur Web en formation  
+📍 Adresse : 140 rue Laure Diebold 69009, Lyon France  
+📞 Téléphone : 10 20 30 40 50  
+📧 Email : john.doe@gmail.com
+
+🔗 [GitHub](https://github.com/github-john-doe)  
+🔗 [LinkedIn](https://linkedin.com/in/john-doe)  
+🔗 [Twitter](https://twitter.com/john_doe)
+
+---
+
+## Mentions légales
+
+Voir la page `Mentions légales` du site (non indexée).
+
+---
+
+> Ce projet est réalisé dans le cadre de la formation de développeur web au **CEF**.
+
+   **README de Jeremy Beaugendre**

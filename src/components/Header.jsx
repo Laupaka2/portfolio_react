@@ -14,27 +14,27 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto text-uppercase">
-                            <li className="nav-item p-2">
+                            <li className="nav-item mx-0 d-flex align-items-center">
                                 <NavLink to="/" className={({ isActive }) => isActive ? "active nav-link" : "nav-link"}>
                                     Home
                                 </NavLink>
                             </li>
-                            <li className="nav-item p-2">
+                            <li className="nav-item mx-0 d-flex align-items-center">
                                 <NavLink to="/services" className={({ isActive }) => isActive ? "active nav-link" : "nav-link"}>
                                     Services
                                 </NavLink>
                             </li>
-                            <li className="nav-item p-2">
+                            <li className="nav-item mx-0 d-flex align-items-center">
                                 <NavLink to="/portfolio" className={({ isActive }) => isActive ? "active nav-link" : "nav-link"}>
                                     Portfolio
                                 </NavLink>
                             </li>
-                            <li className="nav-item p-2">
+                            <li className="nav-item mx-0 d-flex align-items-center">
                                 <NavLink to="/contact" className={({ isActive }) => isActive ? "active nav-link" : "nav-link"}>
                                     Contact
                                 </NavLink>
                             </li>
-                            <li className="nav-item p-2">
+                            <li className="nav-item mx-0 d-flex align-items-center">
                                 <NavLink to="/mention" className={({ isActive }) => isActive ? "active nav-link" : "nav-link"}>
                                     Mentions Légales
                                 </NavLink>
